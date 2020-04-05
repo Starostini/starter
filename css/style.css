@@ -1,0 +1,575 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    background-color: #445161;
+    box-sizing: border-box;
+}
+
+.logo:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.menut {
+    float: left;
+}
+
+.product {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.menu {
+    width: 100%;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-type: none;
+    margin: 20px 0 0 0;
+}
+
+.list-item-product {
+    position: relative;
+}
+
+.list-item-product:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    top: 7px;
+    left: -37px;
+    background-image: url('../img/check_icon.png');
+}
+
+.log {
+    display: block;
+    background-color: #ffffff;
+    float: right;
+}
+
+.about {
+    width: 100%;
+    min-height: 342px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.secondb {
+    float: left;
+}
+
+.product2 {
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about-txt {
+    width: 653px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 0 0;
+}
+
+.about video {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    float: right;
+}
+
+.dignity {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    margin: 0 0 29px 0;
+    display: block;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.dignity-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 540px;
+    float: left;
+    padding-left: 40px;
+}
+
+.dignity-list:nth-child(3) {
+    float: right;
+}
+
+.dignity-list-item {
+    margin: 0 0 35px 0;
+    width: 526px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+
+.dignity-list:nth-child(2) > .dignity-list-item:nth-child(3),
+.dignity-list:nth-child(3) > .dignity-list-item:nth-child(3) {
+    margin: 0;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 31px;
+    height: 31px;
+    background-color: #445161;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 31px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.scrinshots {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.scrinshots:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.scrin {
+    display: block;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.scrin-first {
+    width: 575px;
+    margin: 35px 0 0 0;
+}
+
+.scrin-img {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.scrin-description {
+    width: 100%;
+}
+
+.scrin-txt {
+    display: block;
+    width: 100%;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.scrin-pagrag {
+    width: 100%;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 15px 0 0 0;
+}
+
+.first-part-scrin:nth-child(2) {
+    float: left;
+}
+
+.first-part-scrin:nth-child(3) {
+    float: right;
+}
+
+.reviews {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.reviews:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.user-reviews {
+    width: 545px;
+    margin: 0 0 25px 0;
+}
+
+.user-picture {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    float: left;
+}
+
+.user-comments-desc {
+    display: block;
+    padding: 16px 20px 25px 20px;
+    background-color: #ebebeb;
+    margin: 0 0 0 100px;
+    text-decoration: none;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    position: relative;
+}
+
+.user-comments-desc:before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: -12px;
+    background-image: url('../img/Slice_01.png');
+}
+
+.user-comments {
+    color: #333333;
+    font-family: "Arial - Italic MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 0 0 0 0;
+}
+
+.user-name-comment {
+    display: block;
+    color: #989898;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 15px 0 0 0;
+}
+
+.first-part-comments:nth-child(1) {
+    float: left;
+}
+
+.first-part-comments:nth-child(2) {
+    float: right;
+    margin: 0 25px 0 0;
+}
+
+.buy-it-now {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 145px 50px 145px;
+    position: relative;
+}
+
+.buy-it-now:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.buy-txt {
+    display: block;
+    text-align: center;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.standart {
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+    margin: 300px 0 0 0;
+    border-radius: 10px;
+    background-color: #445162;
+    position: absolute;
+    bottom: 50px;
+}
+
+.standart-txt {
+    padding: 16px 0 16px 0;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.money-standart-txt {
+    padding: 18px 0 18px 0;
+    display: block;
+    text-align: center;
+    color: #445162;
+    background-color: white;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.standart-list {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.buy-button {
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445161;
+    font-family: "Arial - Bold MT";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0 20px 20px 20px;
+    outline: none;
+}
+
+.buy-button:hover {
+    box-shadow: 3px 3px 5px black;
+}
+
+.buy-button:active {
+    box-shadow: 3px 3px 5px gray;
+}
+
+.premium {
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+    margin: 202px 0 0 39px;
+    border-radius: 10px;
+    background-color: #445162;
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+}
+
+.premium-txt {
+    padding: 16px 0 16px 0;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.money-premium-txt {
+    padding: 18px 0 18px 0;
+    display: block;
+    text-align: center;
+    color: #445162;
+    background-color: white;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.premium-list {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.lux {
+    border: 1px solid black;
+    width: 300px;
+    float: right;
+    margin: 107px 5px 0 0;
+    border-radius: 10px;
+    background-color: #445162;
+}
+
+.lux-txt {
+    padding: 16px 0 16px 0;
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.money-lux-txt {
+    padding: 18px 0 18px 0;
+    display: block;
+    text-align: center;
+    color: #445162;
+    background-color: white;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lux-list {
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0 20px 0;
+}
+
+.footer-end {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 245px 50px 245px;
+    background-color: #445162
+}
+
+.footer-end:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.contacts-ftr {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.footer-first {
+    width: 500px;
+}
+
+.form-submit {}
+
+.type-of-form {
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    outline: none;
+    border:none;
+}
+
+.type-of-form2 {
+    width: 498px;
+    height: 170px;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+    outline: none;
+    border:none;
+}
+
+.btn-subm {
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #445162;
+    font-family: "Arial - Bold MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px 0 0 180px;
+}
